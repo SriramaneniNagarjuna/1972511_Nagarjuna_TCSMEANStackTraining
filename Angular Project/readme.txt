@@ -1,0 +1,1 @@
+This is the sample file created for the project submission of Phase 1.
