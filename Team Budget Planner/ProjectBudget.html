@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Project Manager</title>
+        <link rel="stylesheet" href="TeamBudgetPlanner.css">
+        <script src="TeamBudgetPlanner.js"></script>	
+	</head>
+    <h2 class="project"> Project Details </h2>
+	<body>
+        <h2 class="projectheader">Project Budget Details</h2>
+        <form>
+            <lable>Project Manager </lable>
+            <input type="text" id="Name">
+            <br/>
+            <label>Client Name</label>
+            <input type="text" id="ClientName">
+            <br/>
+            <label>Budget Allocated</label>
+            <input type="number" id="Budget">
+            <br/>
+            <br/>
+            
+            <input type="button" value="Add Details" onclick="formsubmit()">
+            <br/>
+            <input type="button" value="Clear" onclick="resetData()">
+            <br/>
+            <input type="button" value="Back">
+            <br/> <br/> 
+            <table id="FinanceOverview">
+                <thead>
+                    <tr>
+                        <th>Project Manager</th>
+                        <th>Client Name</th>
+                        <th>Budget Allocated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+        
+            </table>
+            
+        </form>
+        <lable>Total Budget= </lable>   <label id ="total"></label>
+	</body>
+</html>

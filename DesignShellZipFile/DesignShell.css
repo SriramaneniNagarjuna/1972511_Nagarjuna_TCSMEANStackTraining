@@ -1,0 +1,52 @@
+.introduction{
+    background-color: yellow;
+    font-style: italic;
+    text-decoration: underline red;
+    text-align: center;
+}
+.para{
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    float: inline-end;
+}
+.circle{
+    padding: 150px;
+    border-radius: 50%;
+    margin: 55px;
+    width: 120px;
+    height: 180px;
+    animation-name: animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    text-align: center;
+
+}
+.ani{
+    padding: 150px;
+    border-radius: 50%;
+    margin: 55px;
+    width: 120px;
+    height: 180px;
+    animation-name: animation2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@keyframes animation{
+    0%{background-color: silver;}
+    25%{background-color:blue;}
+    50%{background-color: silver;}
+    75%{background-color: violet;}
+    100%{background-color: silver;}
+}
+@keyframes animation2{
+    0%{background-color: silver;}
+    25%{background-color:greenyellow;}
+    50%{background-color: silver;}
+    75%{background-color:skyblue;}
+    100%{background-color: silver;}
+}
