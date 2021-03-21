@@ -1,0 +1,6 @@
+.display{
+    text-align: center;
+    border: solid red 1px;
+    border-width: 50;
+    resize: vertical;
+}

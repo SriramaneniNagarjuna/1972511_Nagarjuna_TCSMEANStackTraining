@@ -35,9 +35,7 @@ function insertNewRecord(data){
  cell2.innerHTML=data.ClientName;                 // value placed
 
  var cell3 =newRow.insertCell(2);
- cell3.innerHTML=data.Budget;
-
- 
+ cell3.innerHTML=data.Budget; 
 }
 
 function resetData() {
