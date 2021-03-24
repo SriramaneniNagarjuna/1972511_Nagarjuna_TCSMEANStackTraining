@@ -21,14 +21,32 @@ function getData(){
 }
 
 function insertData(store){
-    var box = document.getElementById("output")
-    box.innerHTML=store.name;
-    var box1 = document.getElementById("output1")
-    box1.innerHTML=store.title;
-    var box2 = document.getElementById("output2")
-    box2.innerHTML=store.email;
-    var box3 = document.getElementById('output3')
-    box3.innerHTML=store.desc
+    var box = document.getElementById("display")
+    var body = document.getElementById("display1")[0];
+    var newrow = body.insertRow(body.length);
+
+    var line1 = newrow.insertcell(0);
+    line1.innerHTMl=store.nameid;
+
+
+
+
+
+
+
+
+
+
+
+
+    //var box = document.getElementById("output")
+    //box.innerHTML=store.name;
+    //var box1 = document.getElementById("output1")
+    //box1.innerHTML=store.title;
+    //var box2 = document.getElementById("output2")
+    //box2.innerHTML=store.email;
+    //var box3 = document.getElementById('output3')
+    //box3.innerHTML=store.desc
 }
 
 function resetData(){

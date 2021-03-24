@@ -1,0 +1,18 @@
+.heading{
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.div1{
+    padding: 20px;
+    border: red solid 2px;
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
