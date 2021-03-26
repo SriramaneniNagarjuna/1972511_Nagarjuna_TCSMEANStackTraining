@@ -1,0 +1,26 @@
+<div>
+    <h2>Welcome to Portfolio</h2>
+    <div>
+        <label>Customer Name</label>
+        <input type="text"/><br/>
+        <label>Phone Number</label>
+        <input type="number"/><br/>
+        <input type="submit" value="Save"/>
+        <br/>
+        <!-- <p>
+            Contact Name is {{info.contactname}} and phone number is {{info.phonenumber}}
+        </p> -->
+        <table border="2px">
+            <tr>
+                <th>Contact Name</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr *ngFor= "let info of infoarray">
+                <td>{{info.contactname}}</td>
+                <td>{{info.phonenumber}}</td>
+
+
+            </tr>
+        </table>
+    </div>
+</div>
